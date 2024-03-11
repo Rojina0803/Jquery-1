@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <title>Jquery</title>
+</head>
+<body>
+    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. A distinctio, nostrum dolorem cupiditate obcaecati sequi sunt mollitia ducimus, rem porro asperiores. Maiores assumenda recusandae nobis, dignissimos error natus similique a?</p>
+
+    <h1 id="class">Let's use Jquery in HTML </h1>
+    <p class="mn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, perspiciatis temporibus officiis deleniti quia natus cum cupiditate possimus porro, quae esse consectetur explicabo voluptates id neque. Suscipit cum dolore vitae.
+
+    </p>
+    <h2>This is a heading</h2>
+
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+    <button>Click me to hide paragraphs</button>
+  
+    <form action="#">
+        <fieldset>
+            <legend>Personal Details:</legend>
+            <label for="full_name">Full Name: </label>
+            <input type="text" id="full_name"
+                   name="full_name"
+                   placeholder="Enter your name">
+            <br/>
+            <label for="email">Email: </label>
+            <input type="email" id="email"
+                   name="email"
+                   value="bktapan16@gmail.com"
+                   placeholder="Enter your email" readonly>
+            <br/>
+            <label for="password">Password: </label>
+            <input type="password" id="password"
+                   name="password"
+                   placeholder="Enter your password">
+            <br/>
+        </fieldset>
+        <fieldset>
+            <legend>Extra details</legend>
+            <label for="bit">BIT</label>
+            <input type="radio" name="courses"
+                   id="bit">
+            <br>
+            <label for="bca">BCA</label>
+            <input type="radio" name="courses"
+                   id="bca">
+            <br>
+            <label for="mcs">MCS</label>
+            <input type="radio" name="courses"
+                   id="mcs">
+            <br />
+            <label for="profile_pic">Profile Pic</label>
+            <input type="file" name="profile_pic"
+                   id="profile_pic">
+            <br>
+            <label for="age">Age</label>
+            <input type="range" name="age"
+                   id="age" min="5" max="30">
+            <br/>
+        </fieldset>
+        <label for="search">Search</label>
+        <input type="search" name="search" id="search"
+               value="abc" disabled>
+    
+        <br/>
+        <label for="courses">Courses</label>
+        <select name="courses" id="courses" multiple>
+            <option value="">please choose one option</option>
+            <option value="bit">BIT</option>
+            <option value="bca" >BCA</option>
+            <option value="mcs" selected>MCS</option>
+        </select>
+        <br />
+        <label for="essay">Essay</label>
+        <textarea name="essay" id="essay" rows="10" cols="100" placeholder="Type Here"></textarea>
+        <input type="submit" value="submit">
+        <input type="reset" value="Reset">
+    </form>
+    
+    <script src="custom.js"></script>
+</body>
+</html>
